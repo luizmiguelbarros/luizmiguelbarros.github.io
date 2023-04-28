@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* NAV */
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    width: 100%;
+    background-color: rgb(174, 202, 255);
+    height: 40px;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+nav ul li{
+    color: rgb(30, 30, 46);
+}
+
+nav ul li a{
+    color: rgb(33, 31, 70);
+    text-decoration: none;
+}
+
+/* Primeira Sessão */
+
+.titulo{
+    text-align: center;
+    font-size: 50px;
+    padding: 5px;
+    display: flex;
+}
+
+
+.portfolio {
+    background-color: rgb(179, 209, 221);
+    height: 800px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.nome {
+    font-size: 60px;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.imagem {
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+
+}
+
+.apresentação {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+}
+
+.texto {
+    font-size: 25px;
+    word-spacing: 2px;
+}
+
+/* Segunda Sessão */
+
+#servicos {
+    background-color: #008080;
+    color: #fff;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.projetos {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.projetos li {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.projetos a {
+    color: #000000;
+    text-decoration: none;
+    border-bottom: 2px solid #fff;
+    transition: border-bottom 0.3s ease-in-out;
+}
+
+.projetos a:hover {
+    border-bottom: 2px solid #ff0;
+}
+
+
+/* Terceira Sessão */
+
+section#perfil{
+    background-color:rgb(173, 76, 76);
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.texto-perfil{
+    max-width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+/* Quarta Sessão */
+
+
+
+.contatos {
+    background-color: #5b8b5a;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .contatos h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  .contatos ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .contatos li {
+    margin: 20px;
+    text-align: left;
+    max-width: 400px;
+  }
+  
+  .contatos a {
+    display: flex;
+    align-items: center;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .contatos a:hover {
+    color: #5dabff;
+  }
+  
+  .contatos i {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+
+/* Footer */
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #3b3b3b;
+    color: #ffffff;
+    font-size: 20px;
+}
